@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:cadetblue}
+
+#contenedor{background-color: white;
+	margin:auto;
+	height: 3000px;
+	width: 1000px;
+	font-size: 20px;
+	padding-top: 10px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+border-radius: 20px;}
+
+
+#logo{height: 150px;
+	width: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 25px}
+
+nav{margin-right: 35px;}
+
+.opciones{height: 60px;
+	width: 130px;
+	margin-left: 55px;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 23px;
+	color: black;
+	float: right}
+.opciones:hover{color: green}
+section{height: 1090px}
+
+
+
+#cabana{height: 300px;
+	width: 350px;
+	margin-left: 80px;
+border-radius: 20px;}
+
+descripcion{background-color: beige;
+	height: 50px;
+	width: 950px;
+	margin-left: 25px;
+	margin-right: 25px;}
+
+#descripcion2 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion3 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion5 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion7 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion8 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion10 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion12 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion14 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion15 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: justify;}
+
+#descripcion16 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion17 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: justify;}
+
+p{margin-left: 25px;
+	margin-right: 25px;
+	font-size: 20px}
+
+.imagenes{width: 230px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 40px;
+	border-radius: 10px;
+	float: left}
+
+.imagen1{width: 320px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 10px;
+	border-radius: 10px;
+	float: left}
+
+.imagen2{width: 320px;
+	height: 300px;
+	margin-top: 40px;
+	margin-left: 30px;
+	border-radius: 10px;
+	float: left}
+
+
+
+footer{width: 300px;
+	height: 80px;
+	float: left;
+	margin-top: 80px}
+
+#info{font-size: 15px}
+
+aside{height: 100px;
+	width: 675px;
+	float: left;
+	margin-top: 40px}
+
+.redes{height: 40px;
+	width: 40px;
+	margin-left: 40px;
+	margin-top: 50px;
+	float: right}
+
+.redes:hover{height: 45px;
+	width: 45px;}
+
+#redess{height: 35px;
+	width: 35px;
+	margin-top: 55px;
+	margin-left: 40px;
+	float: right}
+
+#redess:hover{height: 40px;
+	width: 40px;}
+
+
+
+
+

@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color:cadetblue}
+
+#contenedor{background-color: white;
+	margin:auto;
+	height: 3000px;
+	width: 1000px;
+	font-size: 20px;
+	padding-top: 10px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+border-radius: 20px;}
+
+
+#logo{height: 150px;
+	width: 200px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 25px}
+
+nav{margin-right: 35px;}
+
+.opciones{height: 60px;
+	width: 130px;
+	margin-left: 55px;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 23px;
+	color: black;
+	float: right}
+.opciones:hover{color: green}
+section{height: 1220px}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.slider li {
+    width: 99%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+
+    75% { margin-left: -300%; }
+    100% { margin-left: -300%; }
+	
+	 115% { margin-left: -400%; }
+    130% { margin-left: -400%; }
+}
+
+
+#cabana{height: 500px;
+	width: 950px;
+	margin-left: 25px;
+border-radius: 20px;}
+
+descripcion{background-color: beige;
+	height: 50px;
+	width: 950px;
+	margin-left: 25px;
+	margin-right: 25px;}
+
+#descripcion2 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion3 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion5 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+#descripcion7 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion9 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+#descripcion11 {background-color: white;
+	height: 50px;
+	width: 950px;
+	text-align: center;}
+
+p{margin-left: 25px;
+	margin-right: 25px;
+	font-size: 20px}
+
+.imagenes{width: 550px;
+	height: 380px;
+	margin-left: 220px;
+	border-radius: 50px;
+	float: left}
+
+
+
+footer{width: 300px;
+	height: 80px;
+	float: left;
+	margin-top: 80px}
+
+#info{font-size: 15px;
+margin-top: -30px;}
+
+aside{height: 100px;
+	width: 675px;
+	float: left;
+	margin-top: -10px}
+
+.redes{height: 40px;
+	width: 40px;
+	margin-left: 40px;
+	margin-top: 50px;
+	float: right}
+
+.redes:hover{height: 45px;
+	width: 45px;}
+
+#redess{height: 35px;
+	width: 35px;
+	margin-top: 55px;
+	margin-left: 40px;
+	float: right}
+
+#redess:hover{height: 40px;
+	width: 40px;}
+
+
+
+
+
